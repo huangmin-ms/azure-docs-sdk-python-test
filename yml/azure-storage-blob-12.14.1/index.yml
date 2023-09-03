@@ -1,0 +1,7 @@
+### YamlMime:PythonPackage
+uid: project-example
+name: example
+fullName: example
+type: distribution
+packages:
+- azure.storage.blob

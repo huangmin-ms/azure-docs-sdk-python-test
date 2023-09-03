@@ -1,0 +1,36 @@
+### YamlMime:PythonClass
+uid: azure.storage.blob.PartialBatchErrorException
+name: PartialBatchErrorException
+fullName: azure.storage.blob.PartialBatchErrorException
+module: azure.storage.blob
+inheritances:
+- azure.core.exceptions.HttpResponseError
+summary: There is a partial failure in batch operations.
+constructor:
+  syntax: PartialBatchErrorException(message, response, parts)
+  parameters:
+  - name: message
+    description: The message of the exception.
+    isRequired: true
+    types:
+    - <xref:str>
+  - name: response
+    description: Server response to be deserialized.
+    isRequired: true
+  - name: parts
+    description: A list of the parts in multipart response.
+    isRequired: true
+    types:
+    - <xref:list>
+methods:
+- uid: azure.storage.blob.PartialBatchErrorException.raise_with_traceback
+  name: raise_with_traceback
+  signature: raise_with_traceback()
+- uid: azure.storage.blob.PartialBatchErrorException.with_traceback
+  name: with_traceback
+  summary: "Exception.with_traceback(tb) \u2013\nset self.__traceback__ to tb and\
+    \ return self."
+  signature: with_traceback()
+attributes:
+- uid: azure.storage.blob.PartialBatchErrorException.args
+  name: args
