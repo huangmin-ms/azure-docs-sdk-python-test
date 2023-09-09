@@ -35,4 +35,4 @@ jobs:
           review_simple_changes: false
           review_comment_lgtm: false
           path_filters: |
-            yml/**/azure.storage.blob.AccessPolicy.yml
+            yml/**/azure.storage.blob.BlobServiceClient.yml
