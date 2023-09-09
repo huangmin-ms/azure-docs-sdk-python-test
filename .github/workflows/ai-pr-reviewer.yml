@@ -34,5 +34,6 @@ jobs:
           debug: true
           review_simple_changes: false
           review_comment_lgtm: false
+          openai_light_model: gpt-35-turbo
           path_filters: |
             yml/**/azure.storage.blob.BlobServiceClient.yml
