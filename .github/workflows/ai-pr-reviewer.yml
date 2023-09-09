@@ -29,9 +29,9 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          OPENAI_API_BASE_URL: ${{ secrets.OPENAI_API_BASE_URL }}
         with:
           debug: true
-          openai_base_url: ${{ secrets.OPENAI_API_BASE_URL }}
           review_simple_changes: false
           review_comment_lgtm: false
           path_filters: |
