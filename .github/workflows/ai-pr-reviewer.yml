@@ -23,7 +23,7 @@ jobs:
       - uses: actions/checkout@v4
         with:
           repository: huangmin-ms/ai-pr-reviewer
-          ref: main
+          ref: azure-bot
           submodules: false
       - uses: ./
         env:
@@ -35,4 +35,4 @@ jobs:
           review_simple_changes: false
           review_comment_lgtm: false
           path_filters: |
-            yml/**/*.yml
+            yml/**/azure.storage.blob.AccessPolicy.yml
