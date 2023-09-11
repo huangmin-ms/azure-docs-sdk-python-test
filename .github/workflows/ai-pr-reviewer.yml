@@ -23,7 +23,7 @@ jobs:
       - uses: actions/checkout@v4
         with:
           repository: huangmin-ms/ai-pr-reviewer
-          ref: azure-bot
+          ref: gangzhang/testPrompts
           submodules: false
       - uses: ./
         env:
